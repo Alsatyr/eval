@@ -1,0 +1,39 @@
+body{
+background-color: #00C2FF;
+}
+header{
+background-color: #0CEBF5;
+width: auto;
+height: auto;
+
+}
+
+  .menu-principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 23px;
+  }
+  h1{
+    font-size: 42px;
+    color: blue;
+  }
+    .firts-para{
+      flex-direction: column;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .second-para{
+      width: 25%;
+      height: auto;
+    }
+    .lien{
+      text-decoration:none;
+      color: #0C7AE8;
+    }
+    .lien:hover{
+    color:cyan;
+    }
